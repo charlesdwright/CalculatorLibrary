@@ -18,4 +18,6 @@ class TestCalculator:
 
     def test_division(self):
         assert 1 == calculator.divide(10, 10)
+
+    def test_division_zero(self):
         assert calculator.divide(10, 0) is None
